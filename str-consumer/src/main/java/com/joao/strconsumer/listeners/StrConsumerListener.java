@@ -26,4 +26,6 @@ public class StrConsumerListener {
     public void history(String message) {
         log.info("HISTORY ::: receive message {}", message);
     }
+
+
 }

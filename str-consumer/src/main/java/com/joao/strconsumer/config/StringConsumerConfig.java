@@ -50,7 +50,7 @@ public class StringConsumerConfig {
     }
 
     private RecordInterceptor<String, String> validMessage() {
-
+/*Execção criado para o consumer listener,ex: so ira aparecer esse log no console se escrever (teste)*/
         return record -> {
             if (record.value().contains("teste")) {
                 log.info("possui a palavra Teste");
