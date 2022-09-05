@@ -1,11 +1,11 @@
-package com.devjoao.paymentservice.controller;
+package com.devjoao.paymentservice.resource;
 
 import com.devjoao.paymentservice.model.Payment;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-public interface PaymentController {
+public interface PaymentResource {
 
     @PostMapping
     ResponseEntity<Payment> payment(@RequestBody Payment payment);
