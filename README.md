@@ -14,9 +14,9 @@ Apache Kafka
 Docker
 
 ## :rocket: Rodando o projeto
-docker-compose up
+
 ```
-<linha de comando>
+<docker-compose up>
 ```
 
 ## :soon: Implementação futura
